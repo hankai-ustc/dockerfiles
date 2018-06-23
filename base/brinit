@@ -1,0 +1,5 @@
+#!/bin/bash
+
+brctl addbr br0
+ifconfig br0 up
+#./root/start.sh
